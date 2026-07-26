@@ -27,8 +27,20 @@
         }
     },
     "files": [
+        "LICENSE",
+        "README.md",
         "dist",
-        "src"
+        "dist/src/arr.d.ts",
+        "dist/src/collection.d.ts",
+        "dist/src/index.d.ts",
+        "dist/src/str/str.d.ts",
+        "index.ts",
+        "jsr.json",
+        "src",
+        "src/arr.ts",
+        "src/collection.ts",
+        "src/index.ts",
+        "src/str/str.ts"
     ],
     "keywords": [
         "bun",
@@ -54,5 +66,13 @@
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nino-ts/support.git"
+    },
+    "bugs": {
+        "url": "https://github.com/nino-ts/support/issues"
+    },
+    "homepage": "https://github.com/nino-ts/support#readme"
 }
